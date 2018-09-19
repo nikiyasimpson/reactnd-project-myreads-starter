@@ -13,14 +13,16 @@ class BookShelf extends Component {
     };
   }
 
+
+
   render(){
 
     return (
       <div className="bookshelf">
-        <h2 className="bookshelf-title">{this.props.bookshelf.readStatus}</h2>
+        <h2 className="bookshelf-title">{this.props.title}</h2>
         <div className="bookshelf-books">
           <ol className="books-grid">
-              {this.props.bookshelf.books.map((bookItem) => (
+              {this.props.books.map((bookItem) => (
                     <Book key={bookItem.id} book={bookItem}/>
                 ))}
 

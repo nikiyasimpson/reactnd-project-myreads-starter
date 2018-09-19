@@ -14,14 +14,15 @@ class BookList extends Component {
         </div>
         <div className="list-books-content">
           <div>
-            {this.props.booklist.map((bookshelf) => (
-              <BookShelf key={bookshelf.readStatus} bookshelf={bookshelf}/>
-          ))}
+            <BookShelf title='Currently Reading' books={this.props.booklist.filter((book) =>
+              book.shelf === 'currentlyReading')}/>
+            <BookShelf title='Want to Read' books={this.props.booklist.filter((book) =>
+                book.shelf === 'wantToRead')}/>
+            <BookShelf title='Read' books={this.props.booklist.filter((book) =>
+              book.shelf === 'read')}/>
           </div>
         </div>
-        <div className="open-search">
-          <a onClick={() => this.setState({ showSearchPage: true })}>Add a book</a>
-        </div>
+
         </div>
       )
       }
