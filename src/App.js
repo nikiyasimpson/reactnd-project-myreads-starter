@@ -12,8 +12,8 @@ class BooksApp extends React.Component {
 
 
 state = {
-  books :  [],
-  selectedBook : {}
+  books :  []
+
   }
 
   componentDidMount(){
@@ -22,15 +22,24 @@ state = {
       })
   }
 
+  changeShelf = (product, shelf) => {
+    BooksAPI.update(product, shelf);
+
+    BooksAPI.getAll().then((books) => {
+      this.setState({books})
+    })
+
+  }
+
 
   render() {
     return (
       <div className="app">
         <Route exact path='/' render={() => (
-          <BookList booklist={this.state.books} />
+          <BookList booklist={this.state.books} changeShelf = {this.changeShelf} />
         )}/>
         <Route path='/search' render={({ history }) => (
-          <SearchBar />
+          <SearchBar changeShelf = {this.changeShelf}/>
         )}/>
         <div className="open-search">
           <Link to="/search">Add a book</Link>

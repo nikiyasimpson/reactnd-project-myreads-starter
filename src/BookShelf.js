@@ -1,3 +1,5 @@
+/* This is the component for the bookshelf */
+
 import React, { Component } from 'react'
 import Book from './Book'
 
@@ -5,13 +7,7 @@ import Book from './Book'
 
 class BookShelf extends Component {
 
-  constructor(props) {
-    super(props);
 
-    this.state = {
-      isShow: true,
-    };
-  }
 
 
 
@@ -23,7 +19,7 @@ class BookShelf extends Component {
         <div className="bookshelf-books">
           <ol className="books-grid">
               {this.props.books.map((bookItem) => (
-                    <Book key={bookItem.id} book={bookItem}/>
+                    <Book key={bookItem.id} book={bookItem} currentShelf={this.props.shelfValue} changeShelf={this.props.changeShelf}/>
                 ))}
 
           </ol>
