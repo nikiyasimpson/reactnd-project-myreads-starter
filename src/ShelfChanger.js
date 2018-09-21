@@ -1,10 +1,9 @@
 /*This component controls the change of the shelf*/
 
 import React, { Component } from 'react'
-import * as BooksAPI from './BooksAPI'
 
 class ShelfChanger extends Component {
-
+/* Controls the shelf change, can use for other products for future scope changes */
   render() {
     const product = this.props.product;
 
@@ -20,7 +19,6 @@ class ShelfChanger extends Component {
          </select>
          </form>
        </div>
-
      )
    }
  }
