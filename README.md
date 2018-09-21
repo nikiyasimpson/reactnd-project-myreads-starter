@@ -97,3 +97,8 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Project Contributors
 Udacity Front End Web Development Nanodegree Program, 2018
 Nikiya M. Simpson, Student
+
+## Resources
+* [Overview of MyReads A Book Tracking App given by Maeva (of France) from the EMEA Grow with Google Scholarship program](https://youtu.be/i6L2jLHV9j8)
+
+* Book not covered Image: [http://i.imgur.com/J5LVHEL.jpg](http://i.imgur.com/J5LVHEL.jpg)
