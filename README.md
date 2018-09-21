@@ -7,11 +7,10 @@ To see the original project read me, view it [here](Project-README.md)
 ## How to install
 
 * install all project dependencies with `npm install`
-* install React DOM Router using 'npm install --save react-router-dom'
 * start the development server with `npm start`
 
-## Hot to Use
-* Open web browser with address: localhost:3000
+## How to Use
+* Open web browser with address: [localhost:3000](localhost:3000)
 
 ## Files Included
 
@@ -20,27 +19,27 @@ To see the original project read me, view it [here](Project-README.md)
 * SEARCH_TERMS.md # The whitelisted short collection of available search terms for you to use with your app.
 * package.json # npm package manager file. It's unlikely that you'll need to modify this.
 * public
-.* favicon.ico # React Icon, You may change if you wish.
-.* index.HTML
-.* book-not-found.jpeg #Image for book covers not found.
+  * favicon.ico # React Icon, You may change if you wish.
+  * index.HTML
+  * book-not-found.jpeg #Image for book covers not found.
 * src
-.* App.css # Styles for your app. Feel free to customize this as you desire.
-.* App.js # This is the root of your app. Contains static HTML right now.
-.* App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
-.* BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
-..* [`getAll`](#getall)
-..* [`update`](#update)
-..* [`search`](#search)
-.* icons # Helpful images for your app. Use at your discretion.
-..* add.svg
-..* arrow-back.svg
-..* arrow-drop-down.svg
-.* index.css # Global styles. You probably won't need to change anything here.
-.* index.js # You should not need to modify this file. It is used for DOM rendering only.
-.* BookList.js # Main book list area of app on the index package
-.* BookShelf.js # Component for book shelf area
-.* Search.js # Search page component for searching and retrieving books
-.* ShelfChanger.js #Component for changing shelves. Can you use seperate from books in case you want to add more products later.
+  * App.css # Styles for your app. Feel free to customize this as you desire.
+  * App.js # This is the root of your app. Contains static HTML right now.
+  * App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
+  * BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
+    * [`getAll`](#getall)
+    * [`update`](#update)
+    * [`search`](#search)
+  * icons # Helpful images for your app. Use at your discretion.
+    * add.svg
+    * arrow-back.svg
+    * arrow-drop-down.svg
+  * index.css # Global styles. You probably won't need to change anything here.
+  * index.js # You should not need to modify this file. It is used for DOM rendering only.
+  * BookList.js # Main book list area of app on the index package
+  * BookShelf.js # Component for book shelf area
+  * Search.js # Search page component for searching and retrieving books
+  * ShelfChanger.js #Component for changing shelves. Can you use seperate from books in case you want to add more products later.
 * Project-README.md #Original read me file for Udacity Project
 
 ## Backend Server
