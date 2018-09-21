@@ -95,6 +95,7 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Project Contributors
 Udacity Front End Web Development Nanodegree Program, 2018
+
 Nikiya M. Simpson, Student
 
 ## Resources
